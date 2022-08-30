@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: unifi-controller
+category: Networking
+name: Unify Controller
+version: "7.2.92"
+tagline: Manage your Ubiquity hardware
+description: >-
+  The Unifi-controller software is a powerful, enterprise wireless software engine ideal for high-density client deployments requiring low latency and high uptime performance. 
+  
+  This app is unofficial and uses an existing docker image created by linuxserver https://hub.docker.com/r/linuxserver/unifi-controller
+developer: Jonas Snellinckx
+website: https://www.ui.com
+dependencies: []
+repo: https://github.com/linuxserver/docker-unifi-controller
+support: https://opencollective.com/linuxserver
+port: 8443
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
