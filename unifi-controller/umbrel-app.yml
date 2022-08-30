@@ -13,7 +13,7 @@ website: https://www.ui.com
 dependencies: []
 repo: https://github.com/linuxserver/docker-unifi-controller
 support: https://opencollective.com/linuxserver
-port: 8443
+port: 8080
 gallery:
   - 1.jpg
   - 2.jpg
