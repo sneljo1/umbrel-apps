@@ -8,7 +8,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   server:
-    image: lscr.io/linuxserver/unifi-controller:arm32v7-7.2.92@sha256:b32ac9d75adcbda13bc50a9f453d45360aff3c0a972f1ee52607ed3b98b60b5c
+    image: linuxserver/unifi-controller:v7-7.2.92@sha256:b32ac9d75adcbda13bc50a9f453d45360aff3c0a972f1ee52607ed3b98b60b5c
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
