@@ -8,7 +8,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   server:
-    image: lscr.io/linuxserver/unifi-controller:7.2.92@sha256:3b7ce61bec4d10006bd83228f64167bf136f3727ae75ee94236cf9fb26f58a60
+    image: lscr.io/linuxserver/unifi-controller:arm64v8-7.2.92@sha256:3b7ce61bec4d10006bd83228f64167bf136f3727ae75ee94236cf9fb26f58a60
     user: "1000:1000"
     restart: on-failure
     stop_grace_period: 1m
@@ -17,7 +17,7 @@ services:
       - 10001:10001/udp
       - 8080:8080
     volumes:
-      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/data:/config
     networks:
       default:
         ipv4_address: $APP_UNIFY_CONTROLLER_IP
